@@ -16,7 +16,7 @@ Console.WriteLine("вторая цифра этого числа -> "+stringNumb
 //int num = new Random().Next(100, 1000);
 int num = 456;
 //Console.WriteLine($"сгенерировано случайное число {num}");
-
+int num1 = num / 100;
 // int num1 = num % 100;
 // int num5 = num1 / 10;
 // int num2 = num / 100;
@@ -24,7 +24,7 @@ int num = 456;
 // //int num2 = num % 10;
 // //Console.Write(num1);
 // int num4 = num2 - num3;
-// Console.WriteLine(num1);
+ Console.WriteLine(num1);
 // Console.WriteLine(num2);
 // Console.WriteLine(num3);
 // Console.WriteLine(num5);
