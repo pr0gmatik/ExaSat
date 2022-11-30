@@ -4,16 +4,18 @@
 int num = 456;
 int num1 = num % 100;
 int num2 = num1 / 10;
-Console.Write(num2);
+Console.Write($"Вторая цифра в числе 456, будет {num2}");
 
-// //782 -> 8
+//782 -> 8
+
 // int num = 782;
 // int num1 = num % 100;
 // int num2 = num1 / 10;
-// Console.Write(num2);
+// Console.Write($"Вторая цифра в числе 782, будет {num2}");
 
-// //918 -> 1
+//918 -> 1
+
 // int num = 918;
 // int num1 = num % 100;
 // int num2 = num1 / 10;
-// Console.Write(num2);
+// Console.Write($"Вторая цифра в числе 918, будет {num2}");

@@ -14,7 +14,7 @@
 //int num = new Random().Next(100, 1000);
 //Console.WriteLine("Введите число : ");
 //int num = new Random().Next(100, 1000);
-int num = 8756;
+int num = 85;
 int num1 = num / 100;
 if(num1 == 0)
 {
