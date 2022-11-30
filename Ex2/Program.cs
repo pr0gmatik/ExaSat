@@ -14,20 +14,23 @@
 //int num = new Random().Next(100, 1000);
 //Console.WriteLine("Введите число : ");
 //int num = new Random().Next(100, 1000);
-int num = 85;
+int num = 5645;
 int num1 = num / 100;
 if(num1 == 0)
 {
-    Console.Write("третьей цифры нет");
+    Console.Write("В данном числе, третьей цифры нет");
+    
 }
 
-else if (num1 > 10)
+else (num1 > 10);
 {
     int num2 = num1%10;
-    Console.Write(num2);
+    Console.WriteLine($"В числе 645, третье число {num2}");
+  
 }
-//Console.WriteLine($"сгенерировано случайное число {num}");
-else Console.Write(num1);
+
+Console.WriteLine($"В числе 645, третье число {num1}");
+//else Console.Write(num1);
 // int num1 = num % 100;
 // int num5 = num1 / 10;
 // int num2 = num / 100;
