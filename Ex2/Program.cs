@@ -11,22 +11,23 @@
 //782 -> 8
 //918 -> 1
 
-//int num = new Random().Next(100, 1000);
-//Console.WriteLine("Введите число : ");
-//int num = new Random().Next(100, 1000);
 int num = 5645;
 int num1 = num / 100;
-if(num1 == 0)
+if (num > 10)
+//if (num1 == 0)
 {
-    Console.Write("В данном числе, третьей цифры нет");
-    
+     int num2 = num1 % 10;
+    Console.WriteLine($"В числе 645, третье число {num2}");
+    //Console.Write("В данном числе, третьей цифры нет");
+
 }
 
-else (num1 > 10);
+//else if (num1 > 10) ;
+else if (num1 == 0)
 {
-    int num2 = num1%10;
+    int num2 = num1 % 10;
     Console.WriteLine($"В числе 645, третье число {num2}");
-  
+
 }
 
 Console.WriteLine($"В числе 645, третье число {num1}");
